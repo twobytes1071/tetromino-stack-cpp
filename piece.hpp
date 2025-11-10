@@ -43,7 +43,7 @@ public:
 	// rotates the piece clockwise
 	void rotate_counterclockwise();
 
-	// returns true when the piece in its current location does not overlap any fallen pieces on the board
+	// returns true if the piece in its current location does not overlap any fallen pieces on the board
 	bool valid_position(const std::vector<std::vector<bool>>& board) const;
 
 	// places the piece on the board as a fallen piece
